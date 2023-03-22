@@ -23,15 +23,21 @@
     
          
     
-            <label for="name"><b>Password</b></label>
+            <label for="name"><b>Password</b></label>       <!-- for ist das gleiche wie id nur wird das bei labels eher verwendet | das ist der Text der über dem Passwortfeld steht -->
                 <input
-                    type="password"
-                    class="form-control"                    <-- 
-                    id="password"                           <-- Die id des Feldes ist password
-                    placeholder="Enter your password"   	<-- Solange das Feld Leer ist steht "Enter your password" drin
-                        minlength="8"                       <-- Das Passwort muss mindestens 8 zeichen lang sein
-                        required                            <-- Das Feld ist erforderlich
+                    type="password"                         
+                    class="form-control"                    
+                    id="password"                           
+                    placeholder="Enter your password"   	
+                        minlength="8"                       
+                        required                            
                 >
+                                                            <!-- 1.Der Passwort type sorgt dafür, dass das PW nicht im Klartext sonder als punkte da steht -->               
+                                                            <!-- 2.Die class von dem Feld ist form-control wird benutzt um das Desing zu machen -->
+                                                            <!-- 3.Die id des Feldes ist password -->
+                                                            <!-- 4.Solange das Feld Leer ist steht "Enter your password" drin -->
+                                                            <!-- 5.Das Passwort muss mindestens 8 zeichen lang sein -->
+                                                            <!-- 6.Das Feld ist erforderlich -->
             
             <button type="submit">Login</button>
         </div>        
