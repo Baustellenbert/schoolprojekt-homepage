@@ -1,4 +1,23 @@
 #headline{
-    font-style: "roboto";
-    padding-left: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#headline1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#headline2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#infofat{
+    text-align: center;
+    font-weight: bold;
+}
+
+#info{
+    text-align: center;
 }
