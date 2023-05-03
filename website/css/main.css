@@ -1,16 +1,40 @@
-.first-color { 
+.layout {
+	width: 1366px;
+	height: 768px;
+  
+	display: grid;
+	grid:
+	  "header" auto
+	  "main" 1fr
+	  "footer" auto
+	  / 1fr;
+	gap: 8px;
+  }
+  
+.header{ 
+	grid-area: header; 
+}
+.main{ 
+	grid-area: main; 
+}
+.footer{ 
+	grid-area: footer;  
+}
+
+
+.first-color{ 
 	background: #182952; 
 }
 	
-.second-color { 
+.second-color{ 
 	background: #2b3595; 
 }
 
-.third-color { 
+.third-color{ 
 	background: #7045af; 
 }
 
-.fourth-color { 
+.fourth-color{ 
 	background: #e14594; 
 }
 
