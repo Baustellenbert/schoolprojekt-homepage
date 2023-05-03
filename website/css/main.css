@@ -14,13 +14,15 @@
 .header{ 
 	grid-area: header; 
 }
+
 .main{ 
-	grid-area: main; 
+	grid-area: main;
+	margin: auto; 
 }
+
 .footer{ 
 	grid-area: footer;  
 }
-
 
 .first-color{ 
 	background: #182952; 
