@@ -1,26 +1,27 @@
 
 #headline{
-    text-align: center;
     text-decoration: underline;
-    
 }
 
 #headline1{
-    text-align: center;
     text-decoration: underline;
 }
 
-#headline2{
-    text-align: center;
+#headline2{    
     text-decoration: underline;
 }
 
 #infofat{
-    text-align: center;
     font-weight: bold;
 }
 
-#info{
+body{
+    background: #7045af;
     text-align: center;
+    color:#ffffff;
+}
+
+a{
+    color: aqua;
 }
 
