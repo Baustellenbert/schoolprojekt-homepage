@@ -21,7 +21,7 @@ form{
 
 /* Set a style for all buttons */
 button{
-  background-color: #7045af;
+  background-color: #e145af;
   color: white;
   border: none;
   cursor: pointer;
@@ -39,7 +39,7 @@ button{
       top: 50%;
       transform: translateY(-50%);
       padding: 15px;
-      background-color: #fff;
+      background-color:#7045af;
       box-shadow: 0px 5px 5px #ccc;
       border-radius: 5px;
       border-top: 1px solid #e9e9e9;
@@ -85,4 +85,8 @@ label{
      display: block;
      float: none;
   }
+}
+
+body{
+  background-color: #7045af;
 }
