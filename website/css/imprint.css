@@ -1,24 +1,27 @@
-#headline{
-    text-align: center;
-    text-decoration: underline;
+
+#headline{                          /*Select the ID "headline"*/    
+    text-decoration: underline;     /*underlines the text of the corresponding ID*/
 }
 
-#headline1{
-    text-align: center;
-    text-decoration: underline;
+#headline1{                         /*Select the ID "headline1"*/
+    text-decoration: underline;     /*underlines the text of the corresponding ID*/
 }
 
-#headline2{
-    text-align: center;
-    text-decoration: underline;
+#headline2{                         /*Select the ID "headline2"*/    
+    text-decoration: underline;     /*underlines the text of the corresponding ID*/
 }
 
-#infofat{
-    text-align: center;
+#infofat{                           /*Select the ID "infofat"*/
     font-weight: bold;
 }
 
-#info{
-    text-align: center;
+body{                               /*Select the body tag*/
+    background: #7045af;          /*turns background of the body in the selected color*/  
+    text-align: center;             /*moves the text of the body in the center*/  
+    color:#ffffff;                /*turns the textcolor into the selected color*/    
+}
+
+a{                                  /*Select the a tag*/
+    color: aqua;                  /*turns the linkcolor into the selected color*/     
 }
 
