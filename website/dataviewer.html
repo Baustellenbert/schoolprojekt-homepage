@@ -28,19 +28,19 @@
         const ctx = document.getElementById('myChart'); //canvas myChart aufrufen um darin das chart zu erstellen
 
         new Chart(ctx, {
-            type: 'line',
+            type: 'line', //type des charts
             data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'], //beschriftung der x achse
             datasets: [{
-                label: '# of Votes',
-                data: [12, 19, 3, 5, 2, 3],
-                borderWidth: 1
+                label: '# of Votes', //beschriftung der y achse
+                data: [12, 19, 3, 5, 2, 3], // anzahl pro wert auf der x achse
+                borderWidth: 1 //dicke der ränder
             }]
             },
             options: {
             scales: {
                 y: {
-                beginAtZero: true
+                beginAtZero: true //das chart beginnt bei 0
                 }
             }
             }
