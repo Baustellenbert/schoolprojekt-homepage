@@ -19,13 +19,13 @@
         <li><a href="./login.html">Logout</a></li>
     </ul>
     <div>
-    <canvas id="myChart"></canvas>
+    <canvas id="myChart"></canvas> <!--erstelen eines canvas für das chart-->
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js">//daten über chart.js herunterladen um diese später nutzen zu können</script>
 
     <script>
-        const ctx = document.getElementById('myChart');
+        const ctx = document.getElementById('myChart'); //canvas myChart aufrufen um darin das chart zu erstellen
 
         new Chart(ctx, {
             type: 'line',
